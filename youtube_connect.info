@@ -1,0 +1,5 @@
+
+name = YouTube Connect
+description = Adds a YouTube Page to your Drupal Site.
+package = Other
+core = 6.x
