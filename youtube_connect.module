@@ -102,6 +102,7 @@ function youtube_connect_display() {
     $p_entries = $p_feed['entry'];
 
     //create output: all videos in channel as thumbnails and showcase if requested
+	// Needs to support single videos on playlists and single play lists. right now if you only have 1 playlist it errors out if you only have 1 video in 2+ playlists it errors out
     foreach ($p_entries as $p_entry):
 
       $thumbnail = ($p_entry['media:group']['media:thumbnail']['0_attr']['url']);
